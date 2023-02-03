@@ -1,22 +1,20 @@
 body {
     background-image: linear-gradient(to bottom right, #828b8e, #062f19);
+    font-family: 'Noto Serif Khojki';
+    font-size: 16px;
+    margin: 0;
 }
 
 .header {
-    text-align: center;
-}
-
-.header img {
-    float: right;
-    width: 50px;
-    height: auto;
-    display: flex;
-    padding: 10px;
+    display: block;
 }
 
 .navbar {
-    padding: 2rem;
     text-align: center;
+}
+
+ul {
+    padding-left: 0px;
 }
 
 a {
@@ -24,7 +22,7 @@ a {
 }
 
 h1, h2, h3, h4, p {
-    font-family: 'Noto Serif Khojki';;
+    text-align: center;
 }
 
 .main {
@@ -40,8 +38,10 @@ h1, h2, h3, h4, p {
 }
 
 .image {
-    width: 300px;
+    width: 45%;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 img {
@@ -49,8 +49,129 @@ img {
     overflow: clip;
 }
 
+.art {
+    padding: 20px;
+    background-color: #2F061C;
+    width: 100%;
+}
+
 .art img {
     width: 45%;
-    height: 300px;
+    height: 400px;
     margin: 1.5%;
 }
+
+.art {
+    color: white;
+}
+
+.collection {
+    padding: 20px;
+    background-color: #2F061C;
+    width: 100%;
+    color: white;
+}
+
+.collection img {
+    width: 45%;
+    height: 400px;
+    margin: 1.5%;
+}
+
+.paint {
+    padding: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1048px) {
+    .main img {
+        width: 100%;
+        height: auto;
+    }
+    .collection {
+        margin: 0;
+        padding: 0;
+    }
+    .collection img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .image {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .art {
+        margin: 0;
+        padding: 0;
+    }
+    .art img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+    .main img {
+        width: 100%;
+        height: auto;
+    }
+    .collection {
+        margin: 0;
+        padding: 0;
+    }
+    .collection img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .image {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .art {
+        margin: 0;
+        padding: 0;
+    }
+    .art img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+  }
+  } 
+
+  @media only screen and (max-width: 320px) {
+    .main img {
+        width: 100%;
+        height: auto;
+    }
+    .collection {
+        margin: 0;
+        padding: 0;
+    }
+    .collection img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .image {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .art {
+        margin: 0;
+        padding: 0;
+    }
+    .art img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+  }
+  }  
