@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient(to bottom right, #828b8e, #062f19);
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    float: right;
+    width: 50px;
+    height: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.navbar {
+    padding: 2rem;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+h1, h2, h3, h4, p {
+    font-family: 'Noto Serif Khojki';;
+}
+
+.main {
+    display: block;
+    padding: 20px;
+}
+
+.main img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.art img {
+    width: 45%;
+    height: 300px;
+    margin: 1.5%;
+}
